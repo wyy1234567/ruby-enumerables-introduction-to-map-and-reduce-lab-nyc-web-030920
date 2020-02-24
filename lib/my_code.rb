@@ -31,6 +31,17 @@ def map_to_double(source_array)
   ans
 end
 
-def 
+def map_to_square(source_array) 
+  index = 0 
+  ans = []
+  while index < source_array.length do 
+    temp = source_array[index] ** 2 
+    ans.push(temp)
+    index += 1 
+  end
+  ans
+end
+
+
     
     
